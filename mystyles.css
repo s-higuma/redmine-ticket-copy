@@ -1,0 +1,22 @@
+.ticket-title-area {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.copy-icon-area {
+    width: 24px;
+    margin-bottom: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.copy-icon-area p {
+    color: limegreen;
+    margin-left: 10px;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+p.after-copy {
+    visibility: visible;
+}

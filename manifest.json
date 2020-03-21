@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "RedmineTicketCopy",
+    "version": "0.1",
+    "description": "Redmineのチケット詳細ページに、チケット番号とチケット名をコピーするボタンを追加します。",
+
+    "content_scripts": [
+        {
+            "matches": ["https://{your-redmine-hostname}/issues/*"],
+            "css": ["mystyles.css"],
+            "js": ["myscript.js"]
+        }
+    ]
+}
